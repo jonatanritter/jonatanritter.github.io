@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ia on Me Explica AI</title>
+    <link>https://jonatanritter.github.io/tags/ia/</link>
+    <description>Recent content in Ia on Me Explica AI</description>
+    <image>
+      <title>Me Explica AI</title>
+      <url>https://jonatanritter.github.io/avatar.png</url>
+      <link>https://jonatanritter.github.io/avatar.png</link>
+    </image>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Thu, 24 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jonatanritter.github.io/tags/ia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5 ferramentas de IA que todo profissional de TI deveria conhecer</title>
+      <link>https://jonatanritter.github.io/posts/5-ferramentas-de-ia-para-ti/</link>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://jonatanritter.github.io/posts/5-ferramentas-de-ia-para-ti/</guid>
+      <description>De gerar documentação até criar automações: essas ferramentas de IA vão fazer você ganhar tempo, mesmo que você não saiba nada de machine learning.</description>
+    </item>
+  </channel>
+</rss>
