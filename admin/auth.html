@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      function parseHash(hash) {
+        var match = /access_token=([^&]+)/.exec(hash);
+        return match && match[1];
+      }
+
+      const token = parseHash(window.location.hash);
+      if (token) {
+        window.opener.postMessage(
+          { source: "github-auth", payload: { token } },
+          window.location.origin
+        );
+        window.close();
+      }
+    </script>
+  </head>
+  <body>
+    <p>Autenticando...</p>
+  </body>
+</html>
+

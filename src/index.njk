@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Me Explica AI</title>
+</head>
+<body>
+  <h1>Me Explica AI</h1>
+  <ul>
+    {% for post in collections.post %}
+      <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
+

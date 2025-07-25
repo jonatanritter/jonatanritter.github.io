@@ -1,0 +1,27 @@
+{
+  "name": "meu-blog",
+  "version": "1.0.0",
+  "description": "Blog pessoal do Jonatan Ritter usando Eleventy e DecapCMS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx eleventy --serve",
+    "build": "npx eleventy",
+    "deploy": "npm run build && npx gh-pages -d _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonatanritter/jonatanritter.github.io.git"
+  },
+  "keywords": ["blog", "eleventy", "decapcms", "github-pages"],
+  "author": "Jonatan Ritter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonatanritter/jonatanritter.github.io/issues"
+  },
+  "homepage": "https://jonatanritter.github.io",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "gh-pages": "^6.1.1"
+  }
+}
+
